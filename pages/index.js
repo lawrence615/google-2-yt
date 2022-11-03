@@ -1,5 +1,8 @@
-import Head from "next/head";
-import Image from "next/image";
+import Head from 'next/head'
+import Image from 'next/image'
+import { MicrophoneIcon, Squares2X2Icon } from '@heroicons/react/24/solid'
+
+import Avatar from '../components/Avatar'
 
 export default function Home() {
   return (
@@ -21,13 +24,23 @@ export default function Home() {
           <p className="link">Gmail</p>
           <p className="link">Images</p>
           {/** Icon */}
-          {/** Avatar */}
+          <Squares2X2Icon className='h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer'/>
+          <Avatar url='https://images.unsplash.com/photo-1575147724231-f759a1e41b5e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dm9sdm98ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60'/>
         </div>
       </header>
 
       {/** Body */}
+      <form>
+      <Image
+      loading="lazy"
+      src="https://www.google.co.uk/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+      alt="Profile picture"
+      height={100}
+      width={300}
+    />
+      </form>
 
       {/** Footer */}
     </div>
-  );
+  )
 }
