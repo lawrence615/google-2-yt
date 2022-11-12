@@ -21,7 +21,10 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 ## New things learnt
 - [tailwindcss](https://tailwindcss.com/) - will be used for styling instead of of Materual UI. It uses mobile first design principles.
   - creating custom class name inside global.css file
+  - use of Tailwind CSS plugin, [@tailwindcss/line-clamp](https://tailwindcss.com/blog/multi-line-truncation-with-tailwindcss-line-clamp), for truncating text to a specific number of lines.
 - [heroicons](https://heroicons.com/) - instead of Material Icons, this is what we shall be using. They work natively with Tailwind.
+- SSR React
+- `Image from "next/image"` - and setting of fetch permissions in the `next.config.js`
 
 ## Learn More
 
