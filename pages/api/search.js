@@ -1,4 +1,4 @@
-import { dummyData } from "../../response";
+import { dummyData } from "../../response.js";
 
 
 export default function handler(req, res) {
