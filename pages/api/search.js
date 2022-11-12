@@ -1,4 +1,4 @@
-import response from "../../response";
+import { dummyData } from "../../response";
 
 
 export default function handler(req, res) {
@@ -7,7 +7,7 @@ export default function handler(req, res) {
 
   switch (method) {
     case "GET":
-        res.status(200).json(response);
+        res.status(200).json(dummyData);
         break;
     default:
       res.setHeader("Allow", ["GET", "POST"]);
