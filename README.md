@@ -17,7 +17,7 @@ To set the environment variables, start by saving `.env.template` as `.env` or v
 ```bash
 cp .env.template .env
 ```
-Generate the API_KEY from [here](https://developers.google.com/custom-search/v1/using_rest/api_key) and CONTEXT_KEY from [here](https://cse.google.com/cse/create/new). Then replace them in the `.env` file.
+Generate the API_KEY from [here](https://developers.google.com/custom-search/v1/introduction#identify_your_application_to_google_with_api_key) and CONTEXT_KEY from [here](https://cse.google.com/cse/create/new). Then replace them in the `.env` file.
 ```bash
 NEXT_PUBLIC_API_KEY=ACDERTJ_EmuYs7B55hndctsb_yA
 NEXT_PUBLIC_CONTEXT_KEY=17hsu72hdkd
