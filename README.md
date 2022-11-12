@@ -1,24 +1,24 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+Tutorial #5; by [Sonny Sangha.](https://www.youtube.com/watch?v=24xpTmaPOdY&ab_channel=SonnySangha)
 ## Getting Started
 
-First, run the development server:
+First, clone the project locally:
+```bash
+git clone https://github.com/lawrence615/google-2-yt.git
+
+cd google-2-yt // change directory
+
+yarn install // install packages
+```
+
+When still inside project, run the development server:
 
 ```bash
-npm run dev
-# or
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## New things learnt
+## New things covered
 - [tailwindcss](https://tailwindcss.com/) - will be used for styling instead of of Materual UI. It uses mobile first design principles.
   - creating custom class name inside global.css file
   - use of Tailwind CSS plugin, [@tailwindcss/line-clamp](https://tailwindcss.com/blog/multi-line-truncation-with-tailwindcss-line-clamp), for truncating text to a specific number of lines.
